@@ -88,38 +88,78 @@
     }
     
     .button1 {
-        transform: translateX(20px) translateZ(-150px) rotateY(-10deg);
         background-image: url(https://i.ytimg.com/vi/9EeqKb_naAs/maxresdefault.jpg);
-        width: 1255px;
-        height: 730px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: block;
+        height: 25px;
+        margin-top: 15px;
+        overflow: hidden;
+        text-decoration: none;
+        text-indent: -1000px;
+        margin-left: 35px;
+        width: 1000px;
+        height: 600px;
     }
     
     .button2 {
-        transform: translateX(50px) translateZ(-50px) rotateY(-10deg);
         background-image: url(https://forum.soulstory.cz/uploads/default/original/2X/3/3e11fa18459c183ba6a4bdfae2c0d63f93415478.jpeg);
-        width: 1740px;
-        height: 900px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block;
+        height: 25px;
+        margin-top: 15px;
+        overflow: hidden;
+        text-decoration: none;
+        text-indent: -1000px;
+        margin-left: 35px;
+        width: 1100px;
+        height: 700px;
     }
     
     .button3 {
-        transform: translateX(50px) translateZ(-50px) rotateY(-10deg);
         background-image: url(https://i.ytimg.com/vi/5OuNKq6H07E/maxresdefault.jpg);
-        width: 1275px;
-        height: 715px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block;
+        height: 25px;
+        margin-top: 15px;
+        overflow: hidden;
+        text-decoration: none;
+        text-indent: -1000px;
+        margin-left: 35px;
+        width: 1100px;
+        height: 700px;
     }
     
     .button4 {
-        transform: translateX(50px) translateZ(-50px) rotateY(-10deg);
         background-image: url(https://pbs.twimg.com/media/D2wMj5sWkAAFC0O?format=jpg&name=large);
-        width: 1650px;
-        height: 900px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block;
+        height: 25px;
+        margin-top: 15px;
+        overflow: hidden;
+        text-decoration: none;
+        text-indent: -1000px;
+        margin-left: 35px;
+        width: 1100px;
+        height: 700px;
     }
     
     .button5 {
-        transform: translateX(50px) translateZ(-50px) rotateY(-10deg);
         background-image: url(https://i.ytimg.com/vi/MPkuWiyE9Lc/maxresdefault.jpg);
-        width: 1280px;
-        height: 720px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block;
+        height: 25px;
+        margin-top: 15px;
+        overflow: hidden;
+        text-decoration: none;
+        text-indent: -1000px;
+        margin-left: 35px;
+        width: 1100px;
+        height: 700px;
     }
     
     #b1 {
@@ -153,8 +193,16 @@
     }
     
     .reklam {
-        transform: translateX(-350px) translateZ(-50px) rotateY(-10deg);
         background-image: url(https://i.ytimg.com/vi/rb2FuqTzj-A/maxresdefault.jpg);
-        width: 270%;
-        height: 720px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block;
+        height: 25px;
+        margin-top: 15px;
+        overflow: hidden;
+        text-decoration: none;
+        text-indent: -1000px;
+        margin-left: 35px;
+        width: 1100px;
+        height: 700px;
     }
