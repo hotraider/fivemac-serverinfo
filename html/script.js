@@ -1,42 +1,42 @@
-//  fivemac = {}
-//  $(function() {
-//      function display(bool) {
-//          if (bool) {
-//              $("#container").show();
-//          } else {
-//              $("#container").hide();
-//          }
-//      }
-//      display(false)
-//      window.addEventListener('message', function(event) {
-//          var item = event.data;
-//          if (item.type === "ui") {
-//              if (item.status == true) {
-//                  display(true)
-//              } else {
-//                  display(false)
-//              }
-//          }
-//      })
-//  })
+ fivemac = {}
+ $(function() {
+     function display(bool) {
+         if (bool) {
+             $("#container").show();
+         } else {
+             $("#container").hide();
+         }
+     }
+     display(false)
+     window.addEventListener('message', function(event) {
+         var item = event.data;
+         if (item.type === "ui") {
+             if (item.status == true) {
+                 display(true)
+             } else {
+                 display(false)
+             }
+         }
+     })
+ })
 
-//  $(document).on('keydown', function() {
-//      switch (event.keyCode) {
-//          case 27:
-//              fivemac.Close();
-//              break;
-//      }
-//  });
+ $(document).on('keydown', function() {
+     switch (event.keyCode) {
+         case 27:
+             fivemac.Close();
+             break;
+     }
+ });
 
-//  fivemac.Close = function() {
-//      $("#container").fadeOut(175);
-//      $.post('http://fivemac-serverinfo/close');
-//  }
+ fivemac.Close = function() {
+     $("#container").fadeOut(175);
+     $.post('http://fivemac-serverinfo/close');
+ }
 
 
-//  $("#exit").click(function() {
-//      fivemac.Close();
-//  });
+ $("#exit").click(function() {
+     fivemac.Close();
+ });
 
  const indicator = document.querySelector('.nav-indicator');
  const items = document.querySelectorAll('.nav-item');
